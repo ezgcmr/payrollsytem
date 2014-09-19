@@ -85,4 +85,20 @@ public class Employee {
 					+ ", yearToDate=" + yearToDate + "]";
 		}
 		
+	    public void addPaycheck(Paycheck check){
+	    	listOfPaychecks.add(check);
+	    }
+
+	    public double calculateGrossAmount(){
+	        return 0;
+	    }
+
+	    public double calculateTaxDeduction(){
+	        return 0;
+	    }
+
+	    public double calculateVactionHours(){
+	        return 0;
+	    }
+		
 }
