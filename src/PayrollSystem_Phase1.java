@@ -160,7 +160,7 @@ public class PayrollSystem_Phase1 {
         System.out.println("\nDisplaying the state of this object (the values in its instance variables)...");
         System.out.println(manager_2.toString());
         
- /*       
+       
         System.out.println("\n*********************************************************************");
         System.out.println("*                 TESTING THE Department CLASS                      *");
         System.out.println("*********************************************************************");
@@ -201,7 +201,7 @@ public class PayrollSystem_Phase1 {
         System.out.println("\nDisplaying the state of the second department object (the values in its instance variables)...");
         System.out.println(dept_2.toString());
         
-        
+  /*      
         System.out.println("\n*********************************************************************");
         System.out.println("*                   TESTING THE Company CLASS                       *");
         System.out.println("*********************************************************************");
