@@ -25,7 +25,7 @@ public class PayrollSystem_Phase1 {
         
         System.out.println("\nDisplaying the state of the first Employee object (the values in its instance variables)...");
         System.out.println(employee_1.toString());
- /*       
+       
         
         System.out.println("\nCreating an Employee object using the second constructor...");
         Employee employee_2 = new Employee("2", "Paul", "Wilkinson" , "12/18/1976", "07/07/2014");
@@ -33,7 +33,7 @@ public class PayrollSystem_Phase1 {
         System.out.println("\nCalling some of the get methods in the Employee class...");
         System.out.println( String.format("%-27s%s", "Date Hired:", employee_2.getDateHired()) );
         System.out.println( String.format("%-27s%s", "Accrued Vacation Hours:", employee_2.getAccruedVacationHours()) );
-        System.out.println( String.format("%-27s%s", "Amount Paid Year to Date:", PayrollUtility.convertToCurrencyStringLeftAligned(employee_2.getYearToDate())) );
+/*      System.out.println( String.format("%-27s%s", "Amount Paid Year to Date:", PayrollUtility.convertToCurrencyStringLeftAligned(employee_2.getYearToDate())) );
         System.out.println( String.format("%-27s%s", "Paychecks Received:", employee_2.getListOfPaychecks()) );
         
         // create two Paycheck objects and add them to an ArrayList
