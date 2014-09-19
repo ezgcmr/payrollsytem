@@ -68,6 +68,13 @@ public class Employee {
 		public void setYearToDate(double yearToDate) {
 			this.yearToDate = yearToDate;
 		}
+		public ArrayList<Paycheck> getListOfPaychecks() {
+			return listOfPaychecks;
+		}
+
+		public void setListOfPaychecks(ArrayList<Paycheck> listOfPaychecks) {
+			this.listOfPaychecks = listOfPaychecks;
+		}
 
 		@Override
 		public String toString() {
