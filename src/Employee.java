@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class Employee {
 	//private instance variables
@@ -9,10 +10,12 @@ public class Employee {
 		private double accruedVacationHours;
 		private double yearToDate;
 		private ArrayList<Paycheck> listOfPaychecks;
-		
-	//Constructor 1	
-		public Employee (String employeeID, String firstName, String lastName, String dateOfBirth, String dateHired, double accruedVacationHours, double yearToDate){
 			
+	public Employee(String employeeID, String firstName, String lastName,
+				String dateOfBirth, String dateHired,
+				double accruedVacationHours, double yearToDate,
+				ArrayList<Paycheck> listOfPaychecks) {
+			super();
 			this.employeeID = employeeID;
 			this.firstName = firstName;
 			this.lastName = lastName;
@@ -20,8 +23,9 @@ public class Employee {
 			this.dateHired = dateHired;
 			this.accruedVacationHours = accruedVacationHours;
 			this.yearToDate = yearToDate;
+			this.listOfPaychecks = listOfPaychecks;
 		}
-		
+
 		public String getEmployeeID() {
 			return employeeID;
 		}
