@@ -35,7 +35,7 @@ public class PayrollSystem_Phase1 {
         System.out.println( String.format("%-27s%s", "Accrued Vacation Hours:", employee_2.getAccruedVacationHours()) );
         System.out.println( String.format("%-27s%s", "Amount Paid Year to Date:", PayrollUtility.convertToCurrencyStringLeftAligned(employee_2.getYearToDate())) );
         System.out.println( String.format("%-27s%s", "Paychecks Received:", employee_2.getListOfPaychecks()) );
-        
+       
         // create two Paycheck objects and add them to an ArrayList
         Paycheck paulsPaycheck_1 = new Paycheck("2", "07/08/2014", "07/11/2014", "07/18/2014", 800.0, 120.0, 0.0, 680.00);
         Paycheck paulsPaycheck_2 = new Paycheck("2", "07/14/2014", "07/18/2014", "07/25/2014", 1000.0, 200.0, 0.0, 800.00);
@@ -52,7 +52,7 @@ public class PayrollSystem_Phase1 {
         System.out.println("\nDisplaying the state of this object (the values in its instance variables)...");
         System.out.println(employee_2.toString());
         
-        
+       
         System.out.println("\n*********************************************************************");
         System.out.println("*               TESTING THE HourlyEmployee CLASS                    *");
         System.out.println("*********************************************************************");
@@ -201,14 +201,14 @@ public class PayrollSystem_Phase1 {
         System.out.println("\nDisplaying the state of the second department object (the values in its instance variables)...");
         System.out.println(dept_2.toString());
         
-  /*      
+        
         System.out.println("\n*********************************************************************");
         System.out.println("*                   TESTING THE Company CLASS                       *");
         System.out.println("*********************************************************************");
         
         System.out.println("\nCreating a Company object...");
         Company company = new Company("", null);
-        
+      
         // create an ArrayList of Departments
         ArrayList<Department> departments = new ArrayList<>();
         departments.add(dept_1);
@@ -224,7 +224,7 @@ public class PayrollSystem_Phase1 {
               
         System.out.println("\nDisplaying the state of the company object...");
         System.out.println(company.toString());
-        */
+        
     }
 
 }
